@@ -1,5 +1,6 @@
 from pyspark.sql import functions as sf
 from pyspark.sql import SparkSession
+import psycopg2
 
 def init_spark():
   spark = SparkSession.builder.getOrCreate()
